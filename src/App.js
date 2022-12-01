@@ -11,37 +11,6 @@ import ModalAmigo from './ModalAmigo/ModalAmigo';
 import {ContactoProvider,ContactoContext} from './Context/ContactoProvider';
 
 function App(props) {
-
-//   let contactos=[
-//     {
-//         nombre:"Guillermo",
-//         telefono:"3221592771",
-//         correo:"guillogallugdg@gmail.com"
-//     },
-//     {
-//         nombre:"Mocho",
-//         telefono:"3221592771",
-//         correo:"mocho@gmail.com"
-//     },
-//     {
-//         nombre:"Ñera",
-//         telefono:"3221592771",
-//         correo:"ñera@gmail.com"
-//     },
-//     {
-//       nombre:"Gymbro",
-//       telefono:"3221592771",
-//       correo:"gymbroh@gmail.com"
-//     },
-//     {
-//       nombre:"Gbro",
-//       telefono:"3221592771",
-//       correo:"gymbroh@gmail.com"
-//     }
-// ]
-
-  
-
   return (
     <ContactoProvider>
       <ContactoContext.Consumer>
